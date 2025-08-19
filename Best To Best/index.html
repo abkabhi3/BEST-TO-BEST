@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best To Best</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <img src="Images/graduation-cap.png" height="50" class="Logo">
+            <span class="brand-name">Best To Best</span>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Cources</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <input type="text" placeholder="Search By Keyword..." class="search-input">
+            <button class="wallet-btn">Search</button>
+        </nav>
+    </div>
+    <h2>Find Best Colleges or Teachers</h2>
+    <h4><b>"Easily discover top-rated colleges and expert teachers. Find the best education options tailored to your
+            needs."</b></h4>
+    <br>
+    <!-- Add Font Awesome in your HTML <head> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <div class="search-bar">
+        <div class="input-group">
+            <i class="fas fa-map-marker-alt"></i>
+            <select name="state" id="state">
+                <option value="">Select State</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-city"></i>
+            <select name="district" id="district">
+                <option value="">Select District</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-location-arrow"></i>
+            <select name="subdistrict" id="subdistrict">
+                <option value="">Select Subdistrict</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <select name="type" id="type">
+                <option value="">Select Type</option>
+            </select>
+        </div>
+
+        <button type="submit"><i class="fas fa-search"></i> Search</button>
+    </div>
+    <!-- Realistic Education-Themed Image Gallery -->
+    <div class="education-gallery">
+        <h3>Inspiring Learning Moments</h3>
+        <div class="gallery-container">
+            <img src="Images/abhi1.jpeg" alt="Students Studying">
+            <img src="Images/IMG_20240831_180725.jpg"
+                alt="Teacher Teaching">
+            <img src="Images/IMG20240607072626.jpg"
+                alt="Books and Learning">
+            <img src="Images/abhi2.jpeg" alt="Students Together">
+        </div>
+        <div>
+            <br>
+            <h3>"Your Future Begins with the Right Choice"</h3>
+            <h4><b>Discover trusted educators and institutions in India</b></h4>
+        </div>
+        <h2 class="section-title"><b>Top Teacher</b></h2>
+        <div class="trending-container">
+            <div class="card"><img src="Images/t1.jpg" alt="Teacher 1"></div>
+            <div class="card"><img src="Images/t2.jpg" alt="Teacher 2"></div>
+            <div class="card"><img src="Images/t3.jpg" alt="Teacher 3"></div>
+            <div class="card"><img src="Images/t4.jpg" alt="Teacher 4"></div>
+            <div class="card"><img src="Images/t5.jpg" alt="Teacher 5"></div>
+            <div class="card"><img src="Images/t6.jpg" alt="Teacher 6"></div>
+            <div class="card"><img src="Images/abhi1.jpeg" alt="Teacher 7"></div>
+            <div class="card"><img src="Images/t7.jpg" alt="Teacher 8"></div>
+            <div class="card"><img src="Images/t8.jpg" alt="Teacher 9"></div>
+            <div class="card"><img src="Images/t9.jpg" alt="Teacher 10"></div>
+            
+        </div>
+        </div>
+        <h2 class="section-title2"><b>Top Collages</b></h2> <br>
+        <div class="trending-container2">
+            <div class="card2"><img src="Images/c1.jpg" alt="Teacher 1"></div>
+            <div class="card2"><img src="Images/c2.png" alt="Teacher 2"></div>
+            <div class="card2"><img src="Images/c3.jpg" alt="Teacher 3"></div>
+            <div class="card2"><img src="Images/c4.jpg" alt="Teacher 4"></div>
+            <div class="card2"><img src="Images/c5.jpg" alt="Teacher 5"></div>
+            <div class="card2"><img src="Images/c6.jpg" alt="Teacher 6"></div>
+            <div class="card2"><img src="Images/c7.jpg" alt="Teacher 7"></div>
+            <div class="card2"><img src="Images/c8.jpg" alt="Teacher 8"></div>
+            <div class="card2"><img src="Images/c9.jpg" alt="Teacher 9"></div>
+            <div class="card2"><img src="Images/c10.jpg" alt="Teacher 10"></div>
+            
+        </div>
+    </div>
+    <div class="feedback-section">
+        <h3>We Value Your Feedback</h3>
+        <form id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your feedback here..." required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
